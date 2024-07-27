@@ -11,6 +11,7 @@ import type {
 export const identity: Identity = {
   name: "Noor Rizky Amalia",
   logo: "/logo.webp",
+  avatarLogo: "/emoji-avatar.png",
   email: "tim@witzdam.com",
 };
 
@@ -27,14 +28,14 @@ export const navBarLinks: NavBarLink[] = [
 
 export const socialLinks: SocialLink[] = [
   {
-    title: "GitHub",
+    title: "Linkedin",
     url: "https://github.com/TimWitzdam",
-    icon: "mdi:github",
+    icon: "mdi:linkedin",
     external: true,
   },
   {
     title: "Mail",
-    url: "mailto:tim@witzdam.com",
+    url: "mailto:noorizkya33@gmail.com",
     icon: "mdi:email",
   },
 ];
@@ -49,7 +50,7 @@ export const homePageContent: HomePageContent = {
   },
   role: "UI / UX Enthusiast",
   description:
-    "I'm Tim Witzdam, a full time student from Germany who also loves building cool things using code.",
+    `Hi, I am Kiki from South Kalimantan, Indonesia. I'm exploring UI/UX design after working in backend development and quality assurance. I am passionate about creating intuitive interfaces and engaging user experiences for innovative and effective solutions.`,
   socialLinks: socialLinks,
   links: [
     {
@@ -66,7 +67,7 @@ export const homePageContent: HomePageContent = {
 // About (/about)
 export const aboutPageContent: AboutPageContent = {
   seo: {
-    title: "About | Tim Witzdam",
+    title: "About | Kiky",
     description:
       "Full time student from Germany who loves building cool things using code.",
     image: identity.logo,
@@ -94,19 +95,28 @@ Facere quibusdam reiciendis, distinctio sunt praesentium error accusantium conse
         title: "Quality Assurance",
         company: {
           name: "Neumedira",
-          image: "/logo.webp",
-          url: "https://github.com/TimWitzdam",
+          image: "/logo-neu.png",
+          url: "https://neumedira.com",
         },
-        date: "2021 - Present",
+        date: "Jan 2024 - Present",
+      },
+      {
+        title: "Quality Assurance",
+        company: {
+          name: "Lentera Digital",
+          image: "/logo-lentera.png",
+          url: "https://lenteradigital.id",
+        },
+        date: "July - Sept 2024",
       },
       {
         title: "Backend Engineer",
         company: {
           name: "Neumedira",
-          image: "/logo.webp",
-          url: "https://github.com/TimWitzdam",
+          image: "/logo-neu.png",
+          url: "https://neumedira.com",
         },
-        date: "2019 - 2021",
+        date: "Oct 2023 - Jan 2024",
       },
     ],
   },
@@ -119,32 +129,32 @@ Facere quibusdam reiciendis, distinctio sunt praesentium error accusantium conse
 // Projects (/projects)
 export const projectsPageContent: ProjectPageContent = {
   seo: {
-    title: "Projects | Tim Witzdam",
+    title: "Projects | Kiki",
     description: "Check out what I've been working on.",
     image: identity.logo,
   },
   subtitle: "Check out what I've been working on.",
   projects: [
     {
-      title: "Project 1",
-      description: "Project 1 Description",
-      image: "/demo-2.jpg",
+      title: "Tabir Pelangi",
+      description: "Our marketplace connects individuals, SMEs, and companies for seamless buying and selling.",
+      image: "/project-1.png",
       year: "2024",
-      url: "https://github.com/TimWitzdam",
+      url: "#",
     },
     {
-      title: "Project 1",
-      description: "Project 1 Description",
-      image: "/demo-2.jpg",
+      title: "EKasir",
+      description: "The POS and Inventory app simplifies transactions, stock management, and sales reporting with secure and cloud-based features.",
+      image: "/project-2.jpeg",
       year: "2024",
-      url: "https://github.com/TimWitzdam",
+      url: "#",
     },
     {
-      title: "Project 1",
-      description: "Project 1 Description",
-      image: "/demo-2.jpg",
-      year: "2024",
-      url: "https://github.com/TimWitzdam",
+      title: "Koperasi Admin",
+      description: "The Cooperative App streamlines member management, financial transactions, and reporting with secure, cloud-based features for efficient cooperative operations.",
+      image: "/project-3.jpeg",
+      year: "2023",
+      url: "#",
     },
   ],
 };
